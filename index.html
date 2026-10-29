@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asma-Ul-Hosna | Research Portfolio</title>
+<style>
+:root {
+  --navy:#12243b;
+  --blue:#245c87;
+  --light:#f4f7fb;
+  --gold:#c49b52;
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  color:#243447;
+  line-height:1.7;
+  background:white;
+}
+header {
+  background:var(--navy);
+  color:white;
+  padding:22px 8%;
+}
+nav {
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  align-items:center;
+  justify-content:space-between;
+}
+nav a { color:white; text-decoration:none; }
+nav a:hover { color:#e8c78c; }
+.hero {
+  background:linear-gradient(135deg,#12243b,#245c87);
+  color:white;
+  padding:90px 8%;
+}
+.hero h1 { font-size:clamp(36px,6vw,58px); margin:0; }
+.hero p { max-width:850px; font-size:19px; }
+.tag { color:#f0cc88; font-weight:bold; }
+section { padding:60px 8%; }
+section:nth-of-type(even) { background:var(--light); }
+h2 { color:var(--navy); font-size:29px; }
+h3 { color:var(--blue); }
+.container { max-width:1100px; margin:auto; }
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:20px;
+}
+.card {
+  background:white;
+  border:1px solid #e0e7ef;
+  border-radius:12px;
+  padding:22px;
+  box-shadow:0 3px 12px #12243b0a;
+}
+.button {
+  display:inline-block;
+  padding:12px 20px;
+  background:var(--gold);
+  color:#12243b;
+  font-weight:bold;
+  text-decoration:none;
+  border-radius:6px;
+}
+footer {
+  background:var(--navy);
+  color:white;
+  text-align:center;
+  padding:25px;
+}
+a { color:var(--blue); }
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+  <strong>Asma-Ul-Hosna</strong>
+  <div>
+    <a href="#about">About</a> &nbsp;
+    <a href="#research">Research</a> &nbsp;
+    <a href="#publications">Publications</a> &nbsp;
+    <a href="#education">Education</a> &nbsp;
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+</header>
+
+<div class="hero">
+  <div class="container">
+    <div class="tag">EPIDEMIOLOGY · BIOSTATISTICS · PUBLIC HEALTH</div>
+    <h1>Asma-Ul-Hosna</h1>
+    <p>
+      Researcher interested in cerebrovascular health,
+      machine learning, statistical modeling,
+      epidemiologic modeling, and health disparities.
+    </p>
+    <a class="button" href="#research">Explore My Research</a>
+  </div>
+</div>
+
+<section id="about">
+<div class="container">
+  <h2>About Me</h2>
+  <p>
+    My academic interests lie at the intersection of
+    epidemiology, biostatistics, and data science.
+    I am particularly interested in applying rigorous
+    statistical and machine learning methods to
+    important public health questions.
+  </p>
+  <p>
+    My research interests include cerebrovascular disease,
+    stroke-related outcomes, mental health, cognitive aging,
+    and population health disparities.
+  </p>
+</div>
+</section>
+
+<section id="research">
+<div class="container">
+  <h2>Research Interests</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Cerebrovascular Research</h3>
+      <p>Stroke epidemiology, risk prediction,
+      post-stroke depression, and cognitive decline.</p>
+    </div>
+    <div class="card">
+      <h3>Machine Learning</h3>
+      <p>Predictive modeling, classification algorithms,
+      model validation, and reproducible workflows.</p>
+    </div>
+    <div class="card">
+      <h3>Statistical Modeling</h3>
+      <p>Regression analysis, longitudinal data analysis,
+      survival methods, and statistical inference.</p>
+    </div>
+    <div class="card">
+      <h3>Epidemiologic Modeling</h3>
+      <p>Population-based studies, risk factors,
+      health inequalities, and cohort data analysis.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="projects">
+<div class="container">
+  <h2>Current and Proposed Research Directions</h2>
+  <div class="card">
+    <h3>Predicting Life After Stroke</h3>
+    <p>
+      My proposed research focuses on developing and
+      validating statistical and machine learning
+      approaches to study stroke risk, post-stroke
+      depression, and cognitive decline among older adults.
+    </p>
+    <p>
+      Planned methods include longitudinal modeling,
+      competing-risk analysis, predictive model calibration,
+      fairness assessment, and reproducible R and Python tools.
+    </p>
+    <p><strong>Status:</strong> Proposed research program.</p>
+  </div>
+</div>
+</section>
+
+<section id="publications">
+<div class="container">
+  <h2>Selected Publications</h2>
+  <div class="card">
+    <h3>Prevalence of Stroke in Bangladesh:
+    A Systematic Review and Meta-analysis</h3>
+    <p>
+      Journal of Stroke and Cerebrovascular Diseases (2024).
+    </p>
+    <a href="https://doi.org/10.1016/j.jstrokecerebrovasdis.2024.108017"
+       target="_blank" rel="noopener noreferrer">
+       View Publication
+    </a>
+  </div>
+  <p>
+    Additional publications and research projects
+    will be added here.
+  </p>
+</div>
+</section>
+
+<section id="education">
+<div class="container">
+  <h2>Education and Skills</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Academic Training</h3>
+      <p>Epidemiology and Statistics</p>
+      <p>Johns Hopkins Bloomberg School of Public Health</p>
+    </div>
+    <div class="card">
+      <h3>Technical Skills</h3>
+      <p>R, Python, statistical analysis,
+      machine learning, epidemiologic methods,
+      and systematic reviews.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+  <h2>Contact and Research Profiles</h2>
+  <p>
+    Explore my research code and future open-source projects
+    through my GitHub profile.
+  </p>
+  <a class="button"
+     href="https://github.com/asmaulhosna-research">
+     Visit My GitHub
+  </a>
+</div>
+</section>
+
+<footer>
+  © 2026 Asma-Ul-Hosna · Academic Research Portfolio
+</footer>
+
+</body>
+</html>
